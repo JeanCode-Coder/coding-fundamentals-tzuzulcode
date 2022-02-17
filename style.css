@@ -1,10 +1,33 @@
 
 body{
+    font-family: monospace;
+    font-size: 1em;
+    
 display: flex;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: solid #50DBB4;
+    border-radius: 30px;
+}
+
+form{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+form button {
+    margin-left: 10px;
+    border-radius:  30px;
+    background: #50DBB4;
+    text-decoration: none;
 }
 
 #container {
